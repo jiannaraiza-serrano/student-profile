@@ -48,3 +48,61 @@ h1 {
   color: #ffffff;
   line-height: 1.5;
 }
+
+/* === Activity 2: Interactive Registration Card === */
+
+#nameInput,
+#studentForm {
+  width: 380px;
+  margin: 15px auto;
+}
+
+input {
+  padding: 14px 22px;
+  font-size: 16px;
+  border: 2px solid #3e6677;
+  border-radius: 50px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color:#ffffff ;
+  color: #222;
+}
+
+.button-row {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.button-row button {
+  flex: 1;
+  padding: 12px 14px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;  
+  border: none;
+  border-radius: 50px;
+  background-color: #013A63;
+  color: white;
+}
+
+#registrationMessage {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  color: #013A63;
+  margin-top: 15px;
+}
+
+.dark {
+  background: #1a1a1a;
+  color: #f4f4f4;
+}
+
+.dark h1 {
+  color: #A9D6E5;
+}
+
+.dark #registrationMessage {
+  color: #A9D6E5;
+}
